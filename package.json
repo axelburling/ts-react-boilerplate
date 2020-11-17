@@ -8,12 +8,12 @@
     "dev": "npm run clean && webpack --config ./webpack.config.js --mode development",
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "clean": "rimraf ./dist",
-    "storybook": "start-storybook -p 6006 -s ./dist",
+    "storybook": "start-storybook -p 6666 -s ./dist",
     "build-storybook": "build-storybook -s ./dist"
   },
   "repository": {
     "type": "git",
-    "repo": ""
+    "repo": "https://github.com/axelburling/ts-react-boiler.git"
   },
   "keywords": [
     "react",
@@ -22,14 +22,10 @@
     "boilerplate",
     "webpack 4"
   ],
-  "alias": {
-    "preact": "./node_modules/preact/dist/preact.min.js"
-  },
-  "author": "lexey111 <lexey111@gmail.com>",
+  "author": "Aki_Dev",
   "license": "ISC",
   "dependencies": {
     "@types/styled-components": "^5.1.4",
-    "preact": "10.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "styled-components": "^5.2.1"
