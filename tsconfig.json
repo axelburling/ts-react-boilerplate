@@ -18,5 +18,6 @@
   "suppressImplicitAnyIndexErrors": true,
   "lib": ["dom", "es2017"],
   "baseUrl": ".",
+  "include": ["src/costom.d.ts"],
   "exclude": ["dist"]
 }

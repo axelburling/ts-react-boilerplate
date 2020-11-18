@@ -1,5 +1,6 @@
-import * as React from "react";
-import Rave from "./index";
-import { storiesOf } from "@storybook/react";
+import * as React from 'react';
+import Test from './index';
+import { storiesOf } from '@storybook/react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-storiesOf("Rave", module).add(`Test`, () => <Rave />);
+storiesOf('Test', module).add(`Test`, () => <Test />);
